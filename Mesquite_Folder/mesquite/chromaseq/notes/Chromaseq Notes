@@ -1,0 +1,70 @@
+- Append Sequences From Chromatograms cuts off ends of existing sequences: fixed
+- Export Separate Sequences as Fasta files
+
+
+
+
+======================
+
+possible issues:
+	- not sure, but phred/phrap processing might not be possible if filenames or taxon names have ! in them.  
+	 Maybe other characters as well.  Will try to find case, but you might write it down.
+ 
+	-- purge chromaseq data fails to remove associated data, e.g. integer "chromaseqStatus", which can amount to many megabytes in file -- it inflated a 2MB file to 80 MB
+=============
+
+FUTRE WORK to consider
+
+
+PhredPhrap
+	- regular expression parsing of file names 
+	- option to do as polymorphism OR uncertainty OR both
+	- polymorphism vs uncertainty:  peak height, height of neighboring peaks, quality of read on either side, if neighboring peaks share a base
+	- uses XML files for primerList, sample code translation file
+	
+	- modifies phd files too with base calls
+	- drag on drop for adding new files to contig
+	- can excise file from contig
+	
+	- have pre-flight option to check plumbing is in place and names and primer sources all OK
+	
+	- Remote copy of PhredPhrap versus local (e.g. remote, http & cgi-bin etc.; local: shell script)
+	- should place parameters in file comment
+	
+	
+Chromatogram Viewer
+	- bird's eye view showing read patterns
+	- key entry tool in chromatogram window the same as the key tool in the data matrix editor
+	- untrim ends
+	- move to matrix if all gaps in matrix (Wayne)
+	- move to matrix set to lower case, or at least pay attention to case in import
+	- new ChromInit module: reads primer sequences from file, then does match against reads and highlights where primers on in reads
+	- highlighting of regions where good forward and backward reads
+	- conservative mode that marks To Check all cells for which there is conflict among reads
+	- adjust trace heights individually, or have non-proportional mode in which they are individually autoscaled
+	- Restore from Original, fills selected region with states from original matrix.  If beyond original, don't touch
+	- shift highlight colors to darker
+	
+	
+Other future features:
+	- double peak count
+	
+	
+
+	- SequenceNameSource and PrimerInfoSource for BP-style systems
+	- SequenceNameSource and PrimerInfoSource for 96-well/Excel style systems
+
+	- on purging of Chromaseq data, have it switch off ColorByQuality
+	- revert to original
+	
+	
+	
+	- Make a ChromatogramSource duty class and hire by ChromatogramProcessor 
+	- move hiring of previous three sources into FileInit successor, and have them hire a ChromatogramProcessor that gets fed SequenceNameSource, PrimerInfoSource, ChromatogramSource
+	- work on design of sinks for this info (both processed and not).   E.g. SequenceUploader should be a module  
+	- quickKeys like tool for making calls;
+	- have keyboard toggle for one base at a time versus jump to next problem
+
+	- option to have no conversion to lower case based upon quality score?  or at least have a check box
+
+	
