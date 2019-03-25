@@ -1,4 +1,5 @@
 #!/bin/sh
 
-java -Xms64m -Xmx512m -jar $HOME/Software/FigTree_v1.4.4/lib/figtree.jar "$@"
+dir=$(pwd)
 
+java -Xms64m -Xmx512m -jar ${dir}/BioProg_Linux/figtree/lib/figtree.jar "$@"
