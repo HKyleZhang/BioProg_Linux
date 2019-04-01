@@ -3,8 +3,8 @@
 dir=$(pwd)
 
 # Run me as ROOT if permission is needed
-a=$(grep -n '# Added by BioProg_Linux' ~/.bashrc)
-b=$(grep -n '######END######' ~/.bashrc)
+a=$(grep -n '# Added by BioProg_Linux' ~/.bashrc | cut -d ':' -f 1)
+b=$(grep -n '######END######' ~/.bashrc | cut -d ':' -f 1)
 if [[ -n "${a}" ]] && [[ -n "${b}" ]]; then
     sed "${a},${b}d" ~/.bashrc
 fi
