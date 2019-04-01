@@ -3,9 +3,16 @@
 dir=$(pwd)
 
 # Run me as ROOT if permission is needed
+a=$(grep -n '# Added by BioProg_Linux' ~/.bashrc)
+b=$(grep -n '######END######' ~/.bashrc)
+if [[ -n "${a}" ]] && [[ -n "${b}" ]]; then
+    sed "${a},${b}d" ~/.bashrc
+fi
 
 echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
 echo "export PATH=\"${dir}/beast/bin:\$PATH\"" >>~/.bashrc
+echo "export PATH=\"${dir}/bcftools:\$PATH\"" >>~/.bashrc
+echo "export BCFTOOLS_PLUGINS=\"${dir}/bcftools/plugins\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/consel:\$PATH\"" >>~/.bashrc
 
@@ -20,4 +27,4 @@ echo "export PATH=\"${dir}/igv:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/paup:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/paml:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/prank:\$PATH\"" >>~/.bashrc
-echo '######' >>~/.bashrc
+echo '######END######' >>~/.bashrc
