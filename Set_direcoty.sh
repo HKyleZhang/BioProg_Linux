@@ -6,7 +6,7 @@ dir=$(pwd)
 a=$(grep -n '# Added by BioProg_Linux' ~/.bashrc | cut -d ':' -f 1)
 b=$(grep -n '######END######' ~/.bashrc | cut -d ':' -f 1)
 if [[ -n "${a}" ]] && [[ -n "${b}" ]]; then
-    sed "${a},${b}d" ~/.bashrc
+    sed -i "${a},${b}d" ~/.bashrc
 fi
 
 echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
