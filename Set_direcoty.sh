@@ -36,4 +36,6 @@ echo "export PATH=\"${dir}/prank:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/raxml:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/samtools:\$PATH\"" >>~/.bashrc
+
+echo "export PATH=\"${dir}/t_coffee/bin:\$PATH\"" >>~/.bashrc
 echo '######END######' >>~/.bashrc
