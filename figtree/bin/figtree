@@ -1,5 +1,0 @@
-#!/bin/sh
-
-dir=$(pwd)
-
-java -Xms64m -Xmx512m -jar ${dir}/BioProg_Linux/figtree/lib/figtree.jar "$@"
