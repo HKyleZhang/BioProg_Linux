@@ -13,6 +13,7 @@ echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
 echo "export PATH=\"${dir}/beast/bin:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/bcftools:\$PATH\"" >>~/.bashrc
 echo "export BCFTOOLS_PLUGINS=\"${dir}/bcftools/plugins\"" >>~/.bashrc
+echo "export PATH=\"${dir}/bwa:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/consel:\$PATH\"" >>~/.bashrc
 
@@ -24,7 +25,15 @@ echo "export PATH=\"${dir}/iqtree:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/igv:\$PATH\"" >>~/.bashrc
 
+echo "export PATH=\"${dir}/minimap2:\$PATH\"" >>~/.bashrc
+echo "export PATH=\"${dir}/mrbayes:\$PATH\"" >>~/.bashrc
+
 echo "export PATH=\"${dir}/paup:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/paml:\$PATH\"" >>~/.bashrc
+echo "export PATH=\"${dir}/Phred_Phrap:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/prank:\$PATH\"" >>~/.bashrc
+
+echo "export PATH=\"${dir}/raxml:\$PATH\"" >>~/.bashrc
+
+echo "export PATH=\"${dir}/samtools:\$PATH\"" >>~/.bashrc
 echo '######END######' >>~/.bashrc
