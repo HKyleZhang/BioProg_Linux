@@ -18,7 +18,7 @@ echo "export PATH=\"${dir}/bwa:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/consel:\$PATH\"" >>~/.bashrc
 
-echo "alias figtree=\"java -Xms64m -Xmx512m -jar ${dir}/BioProg_Linux/figtree/figtree.jar \"\$@\"" >>~/.bashrc
+echo "alias figtree=\'java -Xms64m -Xmx512m -jar ${dir}/BioProg_Linux/figtree/figtree.jar \"\$@\"\'" >>~/.bashrc
 
 echo "export PATH=\"${dir}/gblocks:\$PATH\"" >>~/.bashrc
 
