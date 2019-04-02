@@ -13,6 +13,7 @@ echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
 echo "export PATH=\"${dir}/beast/bin:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/bcftools:\$PATH\"" >>~/.bashrc
 echo "export BCFTOOLS_PLUGINS=\"${dir}/bcftools/plugins\"" >>~/.bashrc
+echo "export PATH=\"${dir}/bamview:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/bwa:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/consel:\$PATH\"" >>~/.bashrc
@@ -37,5 +38,6 @@ echo "export PATH=\"${dir}/raxml:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/samtools:\$PATH\"" >>~/.bashrc
 
+echo "export PATH=\"${dir}/tablet:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/t_coffee/bin:\$PATH\"" >>~/.bashrc
 echo '######END######' >>~/.bashrc
