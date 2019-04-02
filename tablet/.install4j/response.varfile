@@ -1,0 +1,7 @@
+# install4j response file for Tablet 1.17.08.17
+executeLauncherAction$Boolean=false
+sys.adminRights$Boolean=false
+sys.installationDir=/home/hk/Software/Tablet
+sys.languageId=en
+sys.programGroupDisabled$Boolean=false
+sys.symlinkDir=/usr/local/bin

@@ -1,0 +1,680 @@
+[INFO] logger started at Tue Apr 02 23:12:39 CEST 2019
+[INFO] executable name: /home/hk/Downloads/tablet_linux_x64_1_17_08_17.sh
+[INFO] install4j version: 6.1.6 (build 6457)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=/home/hk/Downloads/tablet_linux_x64_1...
+sun.boot.library.path=/home/hk/Downloads/tablet_linux_x64_1...
+java.vm.version=25.144-b01
+awt.useSystemAAFontSettings=gasp
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=GB
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/home/hk/Downloads/
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/home/hk/Downloads/tablet_linux_x64_1...
+java.runtime.version=1.8.0_144-b01
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+i4jv=0
+java.endorsed.dirs=/home/hk/Downloads/tablet_linux_x64_1...
+os.arch=amd64
+java.io.tmpdir=/tmp
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+exe4j.totalDataLength=57925856
+sun.java2d.noddraw=true
+sun.jnu.encoding=UTF-8
+java.library.path=/home/hk/Downloads/tablet_linux_x64_1...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=4.15.0-29deepin-generic
+i4j.vpt=true
+user.home=/home/hk
+install4j.cwd=/home/hk/Downloads
+user.timezone=Europe/Stockholm
+java.awt.printerjob=sun.print.PSPrinterJob
+java.specification.version=1.8
+install4j.jvmDir=/home/hk/Downloads/tablet_linux_x64_1...
+file.encoding=UTF-8
+user.name=hk
+java.class.path=i4jruntime.jar
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=/home/hk/Downloads/tablet_linux_x64_1...
+sun.java.command=com.install4j.runtime.launcher.UnixLa...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_144
+java.ext.dirs=/home/hk/Downloads/tablet_linux_x64_1...
+sun.boot.class.path=/home/hk/Downloads/tablet_linux_x64_1...
+java.vendor=Oracle Corporation
+install4j.appDir=/home/hk/Downloads/
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.font.fontmanager=sun.awt.X11FontManager
+sun.desktop=gnome
+sun.cpu.isalist=
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 860]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 343]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 343]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 3]: Show screen
+       Variable changed: sys.installationDir=/home/hk/Software/Tablet[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 4]: Execute action
+       Property excludedVariables: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property file: null
+       Property rollbackSupported: true
+       Response file /home/hk/Software/Tablet/.install4j/response.varfile does not exist
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 3]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 6]: Show screen
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 6]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 7]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 106]: Execute action
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property uninstallServices: true
+       Property installerVariables: {}
+       Property installationDirectory: null
+       Property rollbackSupported: true
+       checking running processes
+       checking running processes ok
+       getting previous installation id
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 8]: Execute action
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property installRuntime: true
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property triggerReboot: true
+       Property delay: false
+       Property showFileNames: true
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property rollbackSupported: true
+       Install file: /home/hk/Software/Tablet/jre/bin/rmiregistry; size: 7949 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/bin/keytool; size: 7941 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/jjs; size: 7941 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/pack200; size: 7957 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/policytool; size: 7997 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/jcontrol; size: 6264 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/java; size: 7734 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/unpack200; size: 228933 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/javaws; size: 129139 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/rmid; size: 7941 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/servertool; size: 7965 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/orbd; size: 8149 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/bin/tnameserv; size: 8181 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/COPYRIGHT; size: 3244 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.SuSE.10.properties.src; size: 16772 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.SuSE.10.bfc; size: 6702 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/content-types.properties; size: 5916 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.Turbo.properties.src; size: 9192 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/cmm/GRAY.pf; size: 632 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/cmm/CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/cmm/PYCC.pf; size: 274474 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/cmm/LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/cmm/sRGB.pf; size: 3144 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/psfontj2d.properties; size: 10393 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/jexec; size: 10584 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libdt_socket.so; size: 22374 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjavafx_font_pango.so; size: 24452 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libunpack.so; size: 164727 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libmlib_image.so; size: 912788 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libnpt.so; size: 14342 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libprism_sw.so; size: 73022 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libj2gss.so; size: 47509 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libawt_headless.so; size: 37420 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libdcpr.so; size: 207604 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libt2k.so; size: 492629 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjsoundalsa.so; size: 81370 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libfontmanager.so; size: 525453 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libj2pkcs11.so; size: 78544 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libsplashscreen.so; size: 446603 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjavafx_font_t2k.so; size: 891625 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjfxwebkit.so; size: 68111062 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/server/libjvm.so; size: 17013932 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/server/Xusage.txt; size: 1423 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libhprof.so; size: 177596 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libkcms.so; size: 401494 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libgstreamer-lite.so; size: 1774694 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjava.so; size: 225882 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libawt.so; size: 772804 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjaas_unix.so; size: 7652 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libavplugin-53.so; size: 49482 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libnpjp2.so; size: 221525 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjava_crw_demo.so; size: 25734 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libdeploy.so; size: 161767 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libverify.so; size: 66472 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjfxmedia.so; size: 229428 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/jli/libjli.so; size: 102352 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libfxplugins.so; size: 151091 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjsound.so; size: 7350 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libglass.so; size: 226180 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjsdt.so; size: 11678 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libsunec.so; size: 257982 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libzip.so; size: 124327 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libsctp.so; size: 28487 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libavplugin-54.so; size: 50109 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libinstrument.so; size: 49341 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libnet.so; size: 115814 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libprism_common.so; size: 57126 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libj2pcsc.so; size: 15884 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libawt_xawt.so; size: 442404 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/liblcms.so; size: 413979 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjawt.so; size: 7013 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libavplugin-56.so; size: 50191 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjdwp.so; size: 271138 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libresource.so; size: 10473 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjavafx_iio.so; size: 242063 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libdecora_sse.so; size: 73636 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libprism_es2.so; size: 61848 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjsig.so; size: 11052 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libbci.so; size: 9594 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/jvm.cfg; size: 627 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libavplugin-ffmpeg-56.so; size: 53268 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjpeg.so; size: 265225 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjfr.so; size: 25913 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjavafx_font_freetype.so; size: 25939 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libjavafx_font.so; size: 16935 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libnio.so; size: 93112 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libmanagement.so; size: 50289 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/amd64/libavplugin-55.so; size: 50191 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/meta-index; size: 1269 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:08:02 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/sunec.jar; size: 42185 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/sunjce_provider.jar; size: 280161 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/sunpkcs11.jar; size: 251327 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/net.properties; size: 4464 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/motif_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/motif_MoveDrop32x32.gif; size: 141 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/motif_LinkDrop32x32.gif; size: 162 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/cursors.properties; size: 1274 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/motif_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/motif_CopyDrop32x32.gif; size: 158 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/cursors/motif_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/icons/sun-java_HighContrastInverse.png; size: 3777 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/icons/sun-java_HighContrast.png; size: 3729 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/icons/sun-java.png; size: 4707 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/images/icons/sun-java_LowContrast.png; size: 4012 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/ja/LC_MESSAGES/sunw_java_plugin.mo; size: 2415 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/it/LC_MESSAGES/sunw_java_plugin.mo; size: 2434 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/zh.GBK/LC_MESSAGES/sunw_java_plugin.mo; size: 2002 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/sv/LC_MESSAGES/sunw_java_plugin.mo; size: 2359 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/zh_TW.BIG5/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/zh_TW/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/pt_BR/LC_MESSAGES/sunw_java_plugin.mo; size: 2420 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/fr/LC_MESSAGES/sunw_java_plugin.mo; size: 2746 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/ko.UTF-8/LC_MESSAGES/sunw_java_plugin.mo; size: 2753 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/zh/LC_MESSAGES/sunw_java_plugin.mo; size: 2002 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/ko/LC_MESSAGES/sunw_java_plugin.mo; size: 2399 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/es/LC_MESSAGES/sunw_java_plugin.mo; size: 2477 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/locale/de/LC_MESSAGES/sunw_java_plugin.mo; size: 2483 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.RedHat.6.bfc; size: 4250 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/security/javaws.policy; size: 98 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/java.policy; size: 2466 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/blacklisted.certs; size: 1273 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/trusted.libraries; size: 0 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/blacklist; size: 4054 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/cacerts; size: 114923 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/java.security; size: 35496 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/security/local_policy.jar; size: 3527 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages.properties; size: 2860 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_es.properties; size: 3600 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_pt_BR.properties; size: 3285 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/ffjcext.zip; size: 13454 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/splash_11@2x-lic.gif; size: 12250 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_it.properties; size: 3223 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_ko.properties; size: 5712 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/MixedCodeMainDialogJs.ui; size: 6110 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/mixcode_s.png; size: 3115 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/splash.gif; size: 8590 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/java-icon.ico; size: 29926 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/MixedCodeMainDialog.ui; size: 4507 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/splash_11-lic.gif; size: 7805 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_de.properties; size: 3306 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/cautionshield.icns; size: 3588 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy/messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/mime/packages/x-java-archive.xml; size: 1822 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/mime/packages/x-java-jnlp-file.xml; size: 412 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 2088 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-text-x-java.png; size: 2088 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 2088 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-javaws.png; size: 3451 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-java.png; size: 3451 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-jcontrol.png; size: 3451 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 464 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 464 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-text-x-java.png; size: 464 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-java.png; size: 417 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-jcontrol.png; size: 417 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-javaws.png; size: 417 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 525 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 525 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-text-x-java.png; size: 525 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-javaws.png; size: 519 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-jcontrol.png; size: 519 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-java.png; size: 519 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 1948 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-text-x-java.png; size: 1948 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 1948 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-javaws.png; size: 1507 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-java.png; size: 1507 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-jcontrol.png; size: 1507 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 783 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-text-x-java.png; size: 783 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 783 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/16x16/apps/sun-java.png; size: 383 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/16x16/apps/sun-jcontrol.png; size: 383 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/16x16/apps/sun-javaws.png; size: 383 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 3202 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-text-x-java.png; size: 3202 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 3202 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/48x48/apps/sun-java.png; size: 1439 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/48x48/apps/sun-jcontrol.png; size: 1439 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/hicolor/48x48/apps/sun-javaws.png; size: 1439 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 2085 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-text-x-java.png; size: 2085 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 2085 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-javaws.png; size: 3410 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-java.png; size: 3410 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-jcontrol.png; size: 3410 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 473 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-text-x-java.png; size: 473 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 473 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-javaws.png; size: 402 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-java.png; size: 402 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-jcontrol.png; size: 402 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/applications/sun-java.desktop; size: 777 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/applications/sun-javaws.desktop; size: 619 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/desktop/applications/sun_java.desktop; size: 624 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/jvm.hprof.txt; size: 4226 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/sound.properties; size: 1210 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.Turbo.bfc; size: 4668 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/calendars.properties; size: 1378 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/management/jmxremote.password.template; size: 2856 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/management/management.properties; size: 14630 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/management/snmp.acl.template; size: 3376 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/management/jmxremote.access; size: 3998 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/jfr/profile.jfc; size: 20065 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/jfr/default.jfc; size: 20109 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.bfc; size: 1678 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/flavormap.properties; size: 3901 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.RedHat.5.bfc; size: 4532 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.SuSE.11.properties.src; size: 16781 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fonts/fonts.dir; size: 4041 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/logging.properties; size: 2455 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.properties.src; size: 1938 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.RedHat.6.properties.src; size: 8735 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.SuSE.11.bfc; size: 7032 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/jce.jar; size: 116446 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/classlist; size: 84311 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/tzdb.dat; size: 105500 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/oblique-fonts/LucidaTypewriterBoldOblique.ttf; size: 63168 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/oblique-fonts/LucidaSansDemiOblique.ttf; size: 91352 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/oblique-fonts/LucidaSansOblique.ttf; size: 253724 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/oblique-fonts/LucidaTypewriterOblique.ttf; size: 137484 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/oblique-fonts/fonts.dir; size: 2115 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/javafx.properties; size: 56 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/fontconfig.RedHat.5.properties.src; size: 8841 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/meta-index; size: 2034 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/currency.data; size: 4122 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/LICENSE; size: 40 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/rmiregistry.1; size: 4557 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/keytool.1; size: 111033 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/rmid.1; size: 19715 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/java.1; size: 148688 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/policytool.1; size: 4020 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/javaws.1; size: 6641 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/unpack200.1; size: 5382 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/servertool.1; size: 9081 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/orbd.1; size: 16092 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/jjs.1; size: 11365 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/pack200.1; size: 14482 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/ja_JP.UTF-8/man1/tnameserv.1; size: 17722 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/pack200.1; size: 11623 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/jjs.1; size: 4932 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/unpack200.1; size: 4244 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/orbd.1; size: 12180 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/servertool.1; size: 7237 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/tnameserv.1; size: 15747 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/rmid.1; size: 15979 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/java.1; size: 124490 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/rmiregistry.1; size: 3449 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/policytool.1; size: 3235 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/keytool.1; size: 86925 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/man/man1/javaws.1; size: 4897 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/plugin/desktop/sun_java.desktop; size: 624 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/plugin/desktop/sun_java.png; size: 4351 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/README; size: 46 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/release; size: 526 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:11 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 63933 bytes; exists: false
+       File options set to: [fileTime: Mon Jun 26 22:26:41 CEST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/THIRDPARTYLICENSEREADME.txt; size: 145180 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 07:07:10 CEST 2017, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/Welcome.html; size: 955 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/jre/lib/deploy.jar; size: 2240074 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:30:47 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/javaws.jar; size: 478734 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:09 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/resources.jar; size: 3505347 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:05 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/jfr.jar; size: 558771 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:14 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/charsets.jar; size: 3133431 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:03 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/jfxswt.jar; size: 33469 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:17 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:06 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/rt.jar; size: 65921592 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:31:59 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/jsse.jar; size: 646305 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:16 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/plugin.jar; size: 942413 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:12 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/localedata.jar; size: 1174668 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:33:00 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/dnsns.jar; size: 8150 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:57 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/jfxrt.jar; size: 18467940 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:48 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/jaccess.jar; size: 43839 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:56 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/nashorn.jar; size: 1982079 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:53 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/zipfs.jar; size: 67458 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:54 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/jre/lib/ext/cldrdata.jar; size: 3837830 bytes; exists: false
+       File options set to: [fileTime: Wed Aug 16 14:32:31 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/1a239782.lprop; size: 59 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/2bfa42ba.lprop; size: 59 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/4fd1c277.lprop; size: 59 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/996212d3.lprop; size: 59 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/tablet.png; size: 2334 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/uninstall.png; size: 73008 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/updater; size: 13410 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/updater.png; size: 2565 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/docs/flamingo.txt; size: 1670 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/docs/help.url; size: 123 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/docs/rebase.txt; size: 873 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/docs/samtools.txt; size: 1167 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/docs/tablet.html; size: 1410 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/docs/xerial-sqlite.txt; size: 11558 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/flamingo.jar; size: 570193 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/picard.jar; size: 733642 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/samtools-linux64.jar; size: 398078 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/scri-commons.jar; size: 54561 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/sqlite-jdbc-3.8.6.jar; size: 3948533 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/tablet-resources.jar; size: 421292 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/lib/tablet.jar; size: 630309 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/tablet; size: 12673 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/uninstall; size: 13620 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/utils/maqtoace; size: 12824 bytes; exists: false
+       File options set to: [fileTime: Thu Aug 17 10:03:36 CEST 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/inst_jre.cfg; size: 63 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 02 23:13:03 CEST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/pref_jre.cfg; size: 29 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 02 23:13:03 CEST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/i4jruntime.jar; size: 1947610 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 02 23:13:03 CEST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/hk/Software/Tablet/.install4j/MessagesDefault; size: 33534 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/i4jparams.conf; size: 73011 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/stats.properties; size: 364 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/user.jar; size: 19416 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/i4j_extf_4_18tgpaa_1sxzjn7.png; size: 2565 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/i4j_extf_0_18tgpaa.utf8; size: 33534 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/i4j_extf_2_18tgpaa.html; size: 1410 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/i4j_extf_1_18tgpaa_o9yl28.png; size: 5791 bytes; exists: false
+       Install file: /home/hk/Software/Tablet/.install4j/i4j_extf_3_18tgpaa_cwz6mn.png; size: 1028 bytes; exists: false
+       Execute action successful after 1477 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 9]: Execute action
+       Property allUsers: true
+       Property linkDirectory: /usr/local/bin
+       Property unixSymlinks: true
+       Property programGroupName: 
+       Property programGroupEntryConfigs: [ProgramGroupFileConfig{target=docs/help.url, arguments='', runAsAdministrator=false}]
+       Property uninstallerMenuName: Tablet Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property failForSymlinksNotCreated: false
+       Property unixMenuEntries: true
+       Property categories: Application
+       Property rollbackSupported: true
+       Install file: /home/hk/Software/Tablet/Tablet.desktop; size: 184 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 02 23:13:03 CEST 2019, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/hk/.local/share/applications/Tablet-1.desktop; size: 184 bytes; exists: false
+       File options set to: [fileTime: Tue Apr 02 23:13:03 CEST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+[ERROR] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 9]: /usr/local/bin/tablet
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 9]: Execute action successful after 12 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 10]: Execute action
+       Property iconSource: Installer icon
+       Property itemName: Tablet 1.17.08.17
+       Property icon: null
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.misc.AddVmOptionsAction [ID 524]: Execute action
+       Property vmOptions: [-Xmx4096m, -XX:+UseCompressedOops]
+       Property launcherId: 20
+       Property macosVmOptionsType: Contained in the application bundle
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 855]: Execute action
+       Property macIconFile: null
+       Property macRole: Viewer
+       Property winAdditionalParameters: null
+       Property windowsIconFile: null
+       Property mac: true
+       Property restartFinder: false
+       Property launcherId: 20
+       Property windows: false
+       Property description: ACE Assembly File
+       Property selected: true
+       Property extension: ace
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 857]: Execute action
+       Property macIconFile: null
+       Property macRole: Viewer
+       Property winAdditionalParameters: null
+       Property windowsIconFile: null
+       Property mac: true
+       Property restartFinder: false
+       Property launcherId: 20
+       Property windows: false
+       Property description: AFG Assembly File
+       Property selected: true
+       Property extension: afg
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 858]: Execute action
+       Property macIconFile: null
+       Property macRole: Viewer
+       Property winAdditionalParameters: null
+       Property windowsIconFile: null
+       Property mac: true
+       Property restartFinder: false
+       Property launcherId: 20
+       Property windows: false
+       Property description: SAM Assembly File
+       Property selected: true
+       Property extension: sam
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 859]: Execute action
+       Property macIconFile: null
+       Property macRole: Viewer
+       Property winAdditionalParameters: null
+       Property windowsIconFile: null
+       Property mac: true
+       Property restartFinder: false
+       Property launcherId: 20
+       Property windows: false
+       Property description: BAM Assembly File
+       Property selected: true
+       Property extension: bam
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 959]: Execute action
+       Property macIconFile: null
+       Property macRole: Viewer
+       Property winAdditionalParameters: null
+       Property windowsIconFile: null
+       Property mac: true
+       Property restartFinder: false
+       Property launcherId: 20
+       Property windows: true
+       Property description: Tablet Project File
+       Property selected: true
+       Property extension: tablet
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 7]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 11]: Show screen
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 11]: command: finish
+       cleaning up
+       Finished

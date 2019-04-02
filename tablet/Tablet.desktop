@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Tablet
+Exec="/home/hk/Software/Tablet/tablet"
+Icon=/home/hk/Software/Tablet/.install4j/tablet.png
+Categories=Application;
