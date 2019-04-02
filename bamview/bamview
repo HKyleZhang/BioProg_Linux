@@ -2,4 +2,4 @@
 
 dir=$(pwd)
 
-java -mx512m -jar ${dir}/BamView.jar "$@"
+java -mx512m -jar ${dir}/BioProg_Linux/bamview/BamView.jar "$@"
