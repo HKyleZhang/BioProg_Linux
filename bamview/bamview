@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dir=$(pwd)
+
+java -mx512m -jar ${dir}/BamView.jar "$@"
