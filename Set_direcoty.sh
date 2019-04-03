@@ -13,7 +13,7 @@ echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
 echo "export PATH=\"${dir}/beast/bin:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/bcftools:\$PATH\"" >>~/.bashrc
 echo "export BCFTOOLS_PLUGINS=\"${dir}/bcftools/plugins\"" >>~/.bashrc
-echo "export PATH=\"${dir}/bamview:\$PATH\"" >>~/.bashrc
+echo "alias bamview='java -mx512m -jar ${dir}/bamview/BamView.jar \"\$@\"'" >>~/.bashrc
 echo "export PATH=\"${dir}/bwa:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/consel:\$PATH\"" >>~/.bashrc
