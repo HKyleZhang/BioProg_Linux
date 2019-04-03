@@ -1,5 +1,0 @@
-#!/bin/bash
-
-dir=$(pwd)
-
-java -mx512m -jar ${dir}/BioProg_Linux/bamview/BamView.jar "$@"
