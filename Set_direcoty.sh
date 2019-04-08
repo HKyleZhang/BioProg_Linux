@@ -26,7 +26,7 @@ echo "export PATH=\"${dir}/iqtree:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/igv:\$PATH\"" >>~/.bashrc
 
-echo "export MAFFT_BINARIES=\"${dir}/mafft/libexec/mafft" >>~/.bashrc
+echo "export MAFFT_BINARIES=\"${dir}/mafft/libexec/mafft\"" >>~/.bashrc
 echo "export PATH=\"${dir}/mafft/bin:\$PATH\"" >>~/.bashrc
 echo "alias mesquite='java -Djava.library.path=lib -Xss4m -Xmx4000m -cp \"${dir}/Mesquite_Folder/\" mesquite.Mesquite \$*'" >>~/.bashrc
 echo "export PATH=\"${dir}/minimap2:\$PATH\"" >>~/.bashrc
