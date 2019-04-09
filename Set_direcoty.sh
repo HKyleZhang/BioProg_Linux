@@ -10,6 +10,8 @@ if [[ -n "${a}" ]] && [[ -n "${b}" ]]; then
 fi
 
 echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
+echo "alias figtree='java -Xmx4000m -jar ${dir}/astral/astral.jar \"\$@\"'" >>~/.bashrc
+
 echo "export PATH=\"${dir}/beast/bin:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/bcftools:\$PATH\"" >>~/.bashrc
 echo "export BCFTOOLS_PLUGINS=\"${dir}/bcftools/plugins\"" >>~/.bashrc
