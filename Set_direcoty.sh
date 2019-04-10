@@ -11,6 +11,7 @@ fi
 
 echo -e "\n# Added by BioProg_Linux" >>~/.bashrc
 echo "alias astral='java -Xmx4000m -jar ${dir}/astral/astral.jar \"\$@\"'" >>~/.bashrc
+echo "export PATH=\"${dir}/aliview:\$PATH\"" >>~/.bashrc
 
 echo "export PATH=\"${dir}/beast/bin:\$PATH\"" >>~/.bashrc
 echo "export PATH=\"${dir}/bcftools:\$PATH\"" >>~/.bashrc
